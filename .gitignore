@@ -39,3 +39,5 @@ public/vendor
 
 # Typescript compiled files
 *.js
+dist
+dist/index.html
