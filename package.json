@@ -4,8 +4,8 @@
   "description": "cruelty free minsk",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm install --only=dev && gulp && bower install",
-    "prestart": "npm install",
+    "postinstall": "gulp && bower install",
+    "prestart": "npm install && npm install --only=dev",
     "start": "node dist/server.js"
   },
   "repository": {
