@@ -4,6 +4,8 @@
   "description": "cruelty free minsk",
   "main": "index.js",
   "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
     "start": "node index.js"
   },
   "repository": {
