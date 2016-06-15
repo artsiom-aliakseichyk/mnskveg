@@ -1,0 +1,28 @@
+{
+  "name": "minsk-veg-places",
+  "description": "cruelty free minsk",
+  "main": "index.js",
+  "authors": [
+    "nobody"
+  ],
+  "license": "WTFPL",
+  "keywords": [
+    "node",
+    "angular2",
+    "express",
+    "heroku"
+  ],
+  "homepage": "https://github.com/artsiom-aliakseichyk/mnskveg",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
