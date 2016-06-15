@@ -1,0 +1,38 @@
+{
+  "name": "minsk-veg-places",
+  "version": "1.0.0",
+  "description": "cruelty free minsk",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artsiom-aliakseichyk/mnskveg.git"
+  },
+  "keywords": [
+    "node",
+    "angular2",
+    "express",
+    "heroku"
+  ],
+  "author": "",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/artsiom-aliakseichyk/mnskveg/issues"
+  },
+  "homepage": "https://github.com/artsiom-aliakseichyk/mnskveg#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.5.4",
+    "gulp": "^3.9.1",
+    "gulp-express": "^0.3.5",
+    "gulp-livereload": "^3.8.1",
+    "gulp-watch": "^4.3.6"
+  }
+}
