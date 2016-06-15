@@ -4,7 +4,7 @@
   "description": "cruelty free minsk",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
