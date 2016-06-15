@@ -36,3 +36,6 @@ public/vendor
 
 # Optional REPL history
 .node_repl_history
+
+# Typescript compiled files
+*.js
