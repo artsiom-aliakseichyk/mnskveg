@@ -4,9 +4,9 @@
   "description": "cruelty free minsk",
   "main": "index.js",
   "scripts": {
-    "postinstall": "bower install",
+    "postinstall": "gulp",
     "prestart": "npm install",
-    "start": "node index.js"
+    "start": "node dist/server.js"
   },
   "repository": {
     "type": "git",
