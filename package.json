@@ -13,7 +13,7 @@
     "bundle:prod": "node tools/builder.js --prod",
     "postinstall": "typings install && tsc -p ./server",
     "build-css": "node-sass --include-path scss ./public/assets/styles/main.scss ./public/assets/styles/main.css",
-    "start": "concurrently \"bower install\" \"npm run develop\""
+    "start": "concurrently \"bower install\" \"npm run build-css\" \"npm run develop\""
   },
   "engines": {
     "node": ">= 5.4.1 < 6"
