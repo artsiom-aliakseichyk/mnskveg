@@ -6,4 +6,8 @@ import { Http, Headers, RequestOptions } from "@angular/http";
 	templateUrl: `client/components/home/home.component.html`
 })
 
-export class HomeComponent { }
+export class HomeComponent {
+	onClick() {
+		console.log("click!");
+	}
+}

@@ -30060,6 +30060,9 @@ $__System.register("4f", ["3"], function(exports_1, context_1) {
     execute: function() {
       HomeComponent = (function() {
         function HomeComponent() {}
+        HomeComponent.prototype.onClick = function() {
+          console.log("click!");
+        };
         HomeComponent = __decorate([core_1.Component({
           selector: "home",
           templateUrl: "client/components/home/home.component.html"
