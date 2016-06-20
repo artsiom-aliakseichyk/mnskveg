@@ -12,6 +12,7 @@ import { AppFooter } from "./footer/footer.component";
     		<section class="container">
     			<a [routerLink]="['/']" class="item">Home</a>
 				<a [routerLink]="['/about']" class="item">about</a>
+                <a [routerLink]="['/misc']" class="item">Misc</a>
 				<router-outlet></router-outlet>
     		</section>
       	</main>

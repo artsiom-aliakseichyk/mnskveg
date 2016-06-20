@@ -13,7 +13,8 @@
     "bundle:prod": "node tools/builder.js --prod",
     "postinstall": "bower install && typings install && tsc -p ./server",
     "build-css": "node-sass --include-path scss ./public/assets/styles/main.scss ./public/assets/styles/main.css",
-    "start": "concurrently \"bower install\" \"npm run build-css\" \"npm run develop\""
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "start": "concurrently \"bower install\" \"npm run build-css\" \"npm run watch-css\" \"npm run develop\""
   },
   "engines": {
     "node": ">= 5.4.1 < 6"
