@@ -7,3 +7,4 @@ client/**/*.js
 client/**/*.js.map
 public/vendor
 /npm-debug.log
+**/*.css

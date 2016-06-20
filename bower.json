@@ -1,0 +1,23 @@
+{
+  "name": "minsk-veg-places",
+  "description": "minsk-veg-places",
+  "main": "",
+  "authors": [
+    "Artsiom"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/artsiom-aliakseichyk/mnskveg",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2"
+  }
+}
