@@ -11,7 +11,7 @@
     "typings": "typings install",
     "bundle": "node tools/builder.js",
     "bundle:prod": "node tools/builder.js --prod",
-    "postinstall": "typings install && tsc -p ./server",
+    "postinstall": "bower install && typings install && tsc -p ./server",
     "build-css": "node-sass --include-path scss ./public/assets/styles/main.scss ./public/assets/styles/main.css",
     "start": "concurrently \"bower install\" \"npm run build-css\" \"npm run develop\""
   },
