@@ -1,4 +1,10 @@
+$header-background: #388e3c;
+$header-text-color: #fff;
+
 .header-wrapper {
-	background: blue;
+	background: $header-background;
 	font-weight: bold;
+	text-align: center;
+
+	color: $header-text-color;
 }

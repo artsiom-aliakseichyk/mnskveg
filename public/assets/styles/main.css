@@ -1,3 +1,17 @@
+main.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
 .header-wrapper {
-  background: blue;
-  font-weight: bold; }
+  background: #388e3c;
+  font-weight: bold;
+  text-align: center;
+  color: #fff; }
+
+.a-spot {
+  text-align: center;
+  background: green;
+  min-height: 100px; }
+
+.footer-wrapper {
+  background: #4caf50; }
