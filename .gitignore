@@ -6,4 +6,5 @@ server/**/*.js.map
 client/**/*.js
 client/**/*.js.map
 public/vendor
+public/assets/styles/*.css
 /npm-debug.log
