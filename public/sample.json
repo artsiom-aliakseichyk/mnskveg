@@ -1,0 +1,22 @@
+{
+    "items": {
+        "cousine": {
+            "name": "Sample name vegetarian",
+            "type": "vegetarian",
+            "price": "***",
+            "location": "minsk city"
+        },
+        "cousine": {
+            "name": "Sample name vegan",
+            "type": "vegan",
+            "price": "*****",
+            "location": "minsk downtown"
+        },
+        "cousine": {
+            "name": "Sample butchery",
+            "type": "veg-friendly",
+            "price": "**",
+            "location": "kuprevicha"
+        }
+    }
+}
