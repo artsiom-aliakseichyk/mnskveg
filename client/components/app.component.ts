@@ -28,7 +28,10 @@ import { CuisinesService } from "../services/cuisines.service";
 				<router-outlet></router-outlet>
     		</section>
       	</main>
-      	<app-footer></app-footer>`,
+        <footer>
+            <app-footer></app-footer>
+        </footer>
+      	`,
     providers: [CuisinesService]
 })
 export class AppComponent implements OnInit {

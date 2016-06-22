@@ -5,16 +5,16 @@
   "main": "",
   "private": true,
   "scripts": {
-    "develop": "concurrently \"tsc -w -p ./server\" \"tsc -w -p ./client\" \"npm run build-css\" \"npm run watch-css\" \"nodemon ./server/bin/www\" ",
+    "develop": "concurrently \"tsc -w -p ./server\" \"tsc -w -p ./client\" \"npm run build-css\" \"npm run watch-css\" \"npm run bundle\" \"nodemon ./server/bin/www\" ",
     "twc:client:w": "tsc -w -p ./client",
     "twc:server:w": "tsc -w -p ./server",
     "typings": "typings install",
     "bundle": "node tools/builder.js",
     "bundle:prod": "node tools/builder.js --prod",
-    "postinstall": "bower install && typings install && tsc -p ./server",
+    "postinstall": "bower install && typings install && tsc -p ./server && tsc -p ./client && npm run build-css && npm run bundle:prod",
     "build-css": "node-sass --include-path scss ./client/styles/main.scss ./public/assets/styles/main.css",
     "watch-css": "node-sass --include-path scss -w ./client/styles/main.scss ./public/assets/styles/main.css",
-    "start": "concurrently \"bower install\" \"npm run build-css\" \"npm run develop\""
+    "start": "node ./server/bin/www"
   },
   "engines": {
     "node": ">= 5.4.1 < 6"
