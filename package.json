@@ -14,7 +14,7 @@
     "postinstall": "bower install && typings install && tsc -p ./server",
     "build-css": "node-sass --include-path scss ./client/styles/main.scss ./public/assets/styles/main.css",
     "watch-css": "node-sass --include-path scss -w ./client/styles/main.scss ./public/assets/styles/main.css",
-    "start": "concurrently \"bower install\" \"npm run build-css\" \"npm run develop\""
+    "start": "concurrently \"bower install\" \"npm run bundle\" \"npm run build-css\" \"npm run develop\""
   },
   "engines": {
     "node": ">= 5.4.1 < 6"
