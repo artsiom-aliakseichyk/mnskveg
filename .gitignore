@@ -8,4 +8,5 @@ client/**/*.js.map
 public/vendor
 public/assets/styles/*.css
 public/assets/js/bundle.js
+public/assets/js/bundle.min.js
 /npm-debug.log
